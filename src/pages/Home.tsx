@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import { ArrowRight, ChevronDown, Code2, Brain, Cpu, Globe, Rocket, Server, Star, Users, Zap } from 'lucide-react';
+import { ArrowRight, ChevronDown, Code2, Brain, Cpu, Globe, Rocket, Server, Star, Users, Zap, Smartphone } from 'lucide-react';
 import { useNavigate } from 'react-router-dom';
 import { useInView } from 'react-intersection-observer';
 
