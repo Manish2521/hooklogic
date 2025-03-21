@@ -34,7 +34,7 @@ export default function Home() {
     { icon: <Code2 size={32} />, name: "Full Stack Development", desc: "MERN, MEAN, Python, Java" },
     { icon: <Brain size={32} />, name: "AI & ML", desc: "TensorFlow, PyTorch, NLP" },
     { icon: <Cpu size={32} />, name: "Cloud Computing", desc: "AWS, Azure, GCP" },
-    { icon: <Globe size={32} />, name: "Web3", desc: "Blockchain, Smart Contracts" },
+    { icon: <Smartphone size={32} />, name: "App Development", desc: "iOS, Android, React Native, Flutter" },
     { icon: <Rocket size={32} />, name: "DevOps", desc: "CI/CD, Docker, Kubernetes" },
     { icon: <Server size={32} />, name: "Microservices", desc: "API Gateway, Service Mesh" }
   ];
