@@ -52,7 +52,7 @@ export default function Team() {
                 />
               </div>
               <h3 className="text-2xl font-bold mb-2">Amit Rawat</h3>
-              <p className="text-blue-400 mb-4">Co-Founder & App Tech Expert</p>
+              <p className="text-blue-400 mb-4">Co-Founder</p>
               <p className="text-gray-300 text-center mb-6">
                 Passionate app technology expert with a strong background in mobile and web development. Specializing in modern frameworks, performance optimization, and seamless user experiences.
               </p>
