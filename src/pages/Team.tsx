@@ -1,5 +1,7 @@
 import React from 'react';
 import { Github, Linkedin, Twitter } from 'lucide-react';
+import manishImg from './manish.jpg';
+import amitImg from './amit.jpg';
 
 export default function Team() {
   return (
@@ -16,7 +18,7 @@ export default function Team() {
               <div className="relative w-48 h-48 mb-6">
                 <div className="absolute inset-0 bg-blue-500 rounded-full blur opacity-25"></div>
                 <img 
-                  src="https://images.unsplash.com/photo-1556157382-97eda2f9e2bf?ixlib=rb-1.2.1&auto=format&fit=crop&w=400&q=80"
+                  src={manishImg}
                   alt="Manish Pokhriyal"
                   className="relative rounded-full w-full h-full object-cover"
                 />
@@ -46,7 +48,7 @@ export default function Team() {
               <div className="relative w-48 h-48 mb-6">
                 <div className="absolute inset-0 bg-blue-500 rounded-full blur opacity-25"></div>
                 <img 
-                  src="https://images.unsplash.com/photo-1601233747882-9f8522a57aa4?ixlib=rb-1.2.1&auto=format&fit=crop&w=400&q=80"
+                  src={amitImg}
                   alt="Amit Rawat"
                   className="relative rounded-full w-full h-full object-cover"
                 />
