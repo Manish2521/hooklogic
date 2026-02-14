@@ -82,7 +82,7 @@ export default function Contact() {
     setIsSubmitting(true);
 
     try {
-      const response = await fetch("https://hooklogic.onrender.com/contact", {
+      const response = await fetch("https://hooklogic.onrender.app/contact", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
