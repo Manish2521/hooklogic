@@ -11,7 +11,18 @@ app.get("/", (req, res) => {
   res.json({ message: "Ping.." });
 });
 
-app.use(cors());
+app.use(cors({
+  origin: [
+    "http://localhost:5173",
+    "http://localhost:3000",
+    "https://hooklogic.onrender.com",
+    "https://hooklogic.vercel.app/contact",
+    "https://hooklogic.vercel.app"
+  ],
+  methods: ["GET", "POST"],
+  credentials: true
+}));
+
 app.use(express.json());
 
 // Important when deployed (Vercel / Render / Nginx etc)
